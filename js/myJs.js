@@ -1,5 +1,5 @@
 const textConfig = {
-  text1: "He luu",
+  text1: "He luu cậu!",
   text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
   text3: "Cậu yêu tớ có phải không nào ._.",
   text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
@@ -35,7 +35,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "https://scontent.fhan3-3.fna.fbcdn.net/v/t1.6435-9/120041098_964174167384144_4618750800040272488_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=tB8kpXUjGmgAX_A4wKc&_nc_ht=scontent.fhan3-3.fna&oh=0aace62506b32f0509a961bbd8128b0b&oe=616D2701",
+      imageUrl: "img/cuteCat.jpg",
       imageWidth: 300,
       imageHeight: 300,
       background: '#fff url("img/iput-bg.jpg")',
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://www.facebook.com/CTISMEVTG/";
+            window.location = "http://fb.com";
           },
         });
       }
